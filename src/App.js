@@ -1,9 +1,9 @@
+import { Route } from 'react-router-dom';
+
+import Home from './components/container/Home';
+
 function App() {
-  return (
-    <div>
-      <h1>Hi World!</h1>;
-    </div>
-  );
+  return <Route path="/" component={Home} />;
 }
 
 export default App;

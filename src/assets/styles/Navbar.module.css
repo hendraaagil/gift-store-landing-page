@@ -1,0 +1,44 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 48px;
+  background-color: #fafafa;
+}
+
+.Logo {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 18px;
+  color: #231f20;
+}
+
+.Link {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.Link a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.2s all ease-in-out;
+}
+
+.Link a:hover {
+  color: #f7941e;
+}
+
+.Button {
+  padding: 10px 20px;
+  color: #f7941e;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  transition: 0.2s all ease-in-out;
+}
+
+.Button:hover {
+  color: #fafafa;
+  background-color: #f7941e;
+}
