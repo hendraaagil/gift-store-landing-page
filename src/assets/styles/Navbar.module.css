@@ -1,8 +1,11 @@
 .Navbar {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
   padding: 12px 48px;
+  width: 100%;
   background-color: #fafafa;
 }
 
@@ -10,6 +13,7 @@
   font-family: 'Homemade Apple', cursive;
   font-size: 18px;
   color: #231f20;
+  cursor: default;
 }
 
 .Link {
@@ -21,6 +25,7 @@
 .Link a {
   color: #000;
   text-decoration: none;
+  cursor: pointer;
   transition: 0.2s all ease-in-out;
 }
 
@@ -35,6 +40,7 @@
   text-transform: uppercase;
   border: 1px solid #f7941e;
   border-radius: 5px;
+  cursor: pointer;
   transition: 0.2s all ease-in-out;
 }
 
