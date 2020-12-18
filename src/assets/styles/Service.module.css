@@ -1,0 +1,16 @@
+.Service {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 96px;
+}
+
+.Service q {
+  margin-bottom: 64px;
+}
+
+.Cards {
+  display: flex;
+  gap: 30px;
+}

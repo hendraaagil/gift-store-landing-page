@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Birthday",
+    "img": "/images/gift-1.png"
+  },
+  {
+    "id": 2,
+    "title": "Anniversary",
+    "img": "/images/gift-2.png"
+  },
+  {
+    "id": 3,
+    "title": "Valentine's Day",
+    "img": "/images/gift-3.png"
+  },
+  {
+    "id": 4,
+    "title": "Christmas",
+    "img": "/images/gift-4.png"
+  }
+]
