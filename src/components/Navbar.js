@@ -20,7 +20,16 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/">About Us</Link>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            About Us
+          </Link>
         </li>
         <li>
           <Link to="/">Services</Link>

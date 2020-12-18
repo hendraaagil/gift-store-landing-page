@@ -1,0 +1,48 @@
+.Section_Two {
+  display: flex;
+  background: #f1f1f2;
+}
+
+.Left,
+.Right {
+  box-sizing: border-box;
+  width: 50%;
+}
+
+.Left {
+  padding: 100px;
+}
+
+.Left h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.Left p {
+  margin-bottom: 72px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.Left a {
+  padding: 10px 40px;
+  background-color: #f1f1f2;
+  color: #f7941e;
+  text-transform: uppercase;
+  border: 1px solid #f7941e;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+.Left a:hover {
+  background-color: #f7941e;
+  color: #fff;
+}
+
+.Right img {
+  width: 100%;
+  height: 100%;
+}
