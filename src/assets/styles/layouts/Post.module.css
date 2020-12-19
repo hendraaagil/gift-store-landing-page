@@ -1,0 +1,44 @@
+.Post {
+  padding: 48px;
+  line-height: 1.5;
+  transition: 0.3s all ease-in-out;
+  cursor: default;
+}
+
+.Post:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  transform: scale(0.98);
+}
+
+.Post h3 {
+  font-size: 24px;
+}
+
+.Post a {
+  position: relative;
+  box-sizing: border-box;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.Post a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 1px solid transparent;
+}
+
+.Post a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.Post a:hover::after {
+  width: 60%;
+}
+
+.Post a:hover::after {
+  border-bottom-color: #000;
+  transition: border-color 0s ease-out 0.1s, width 0.2s ease-out 0.1s;
+}

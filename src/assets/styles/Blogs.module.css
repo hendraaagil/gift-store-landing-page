@@ -1,0 +1,71 @@
+.Blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 72px;
+  cursor: default;
+}
+
+.Hero {
+  display: flex;
+  margin: 72px 64px 0 64px;
+  background-color: #231f20;
+  color: #fff;
+}
+
+.Hero img {
+  width: 400px;
+}
+
+.Hero div {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 200px 48px 72px;
+}
+
+.Hero span,
+.Hero a {
+  font-weight: 300;
+}
+
+.Hero h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.Hero a {
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 40px;
+  padding: 2px 0;
+  cursor: pointer;
+}
+
+.Hero a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 1px solid transparent;
+}
+
+.Hero a::after {
+  bottom: 0;
+  left: 0;
+}
+
+.Hero a:hover::after {
+  width: 10%;
+}
+
+.Hero a:hover::after {
+  border-bottom-color: #fff;
+  transition: border-color 0s ease-out 0.1s, width 0.2s ease-out 0.1s;
+}
+
+.Posts {
+  display: flex;
+  gap: 30px;
+  margin: 40px 64px;
+}

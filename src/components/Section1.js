@@ -11,7 +11,9 @@ const Section1 = ({ id }) => {
         <p>
           Struggling to find a gift for your wife or girlfriend? No problem!
         </p>
-        <Link to="/">Find gift now</Link>
+        <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
+          Find gift now
+        </Link>
       </div>
       <div className={styles.Right}>
         <img src={background} alt="Background Section 1" />

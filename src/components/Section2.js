@@ -17,7 +17,9 @@ const Section2 = ({ id }) => {
           survey that only takes seconds, and our proprietary algorithm will
           match you with a few perfect gift options.
         </p>
-        <Link to="/">Learn More</Link>
+        <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
+          Learn More
+        </Link>
       </div>
     </section>
   );

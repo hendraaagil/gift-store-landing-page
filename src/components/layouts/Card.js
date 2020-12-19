@@ -8,7 +8,9 @@ const Card = ({ title, imgSrc }) => {
       <img src={imgSrc} alt={`${title} Illustration`} />
       <div>
         <h3>{title}</h3>
-        <Link to="/">See More ›</Link>
+        <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
+          See More ›
+        </Link>
       </div>
     </div>
   );

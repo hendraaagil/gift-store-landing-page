@@ -4,6 +4,7 @@ import Navbar from '../Navbar';
 import Section1 from '../Section1';
 import Section2 from '../Section2';
 import Service from '../Service';
+import Blogs from '../Blogs';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Section1 id="home" />
       <Section2 id="about" />
       <Service id="service" />
+      <Blogs id="blogs" />
     </Fragment>
   );
 };

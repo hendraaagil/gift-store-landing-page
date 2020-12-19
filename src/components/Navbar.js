@@ -44,10 +44,26 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/">Blogs</Link>
+          <Link
+            activeClass="active"
+            to="blogs"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Blogs
+          </Link>
         </li>
       </ul>
-      <Link to="/" className={styles.Button}>
+      <Link
+        to="home"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+        className={styles.Button}
+      >
         Gift Finder
       </Link>
     </nav>

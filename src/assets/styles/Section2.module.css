@@ -1,6 +1,7 @@
 .Section_Two {
   display: flex;
   background: #f1f1f2;
+  cursor: default;
 }
 
 .Left,
