@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 import styles from '../../assets/styles/layouts/Card.module.css';
 
 const Card = ({ title, imgSrc }) => {
@@ -6,7 +8,7 @@ const Card = ({ title, imgSrc }) => {
       <img src={imgSrc} alt={`${title} Illustration`} />
       <div>
         <h3>{title}</h3>
-        <p>See More ›</p>
+        <Link to="/">See More ›</Link>
       </div>
     </div>
   );

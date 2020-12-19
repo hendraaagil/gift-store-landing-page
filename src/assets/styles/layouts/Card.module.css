@@ -19,20 +19,20 @@
 }
 
 .Card h3 {
+  padding-bottom: 72px;
   cursor: default;
 }
 
 .Card h3,
-.Card p {
+.Card a {
   margin: 0;
 }
 
-.Card p {
-  margin-top: 72px;
+.Card a {
   transition: 0.2s all ease-in-out;
   cursor: pointer;
 }
 
-.Card p:hover {
+.Card a:hover {
   color: #f7941e;
 }
