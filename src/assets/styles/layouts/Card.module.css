@@ -1,8 +1,38 @@
 .Card {
   background-color: #fafafa;
   width: 270px;
+  transition: 0.3s all ease-in-out;
+}
+
+.Card:hover {
+  background-color: #fff;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
+  transform: scale(0.98);
 }
 
 .Card img {
   width: 100%;
+}
+
+.Card div {
+  padding: 24px;
+}
+
+.Card h3 {
+  cursor: default;
+}
+
+.Card h3,
+.Card p {
+  margin: 0;
+}
+
+.Card p {
+  margin-top: 72px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+.Card p:hover {
+  color: #f7941e;
 }

@@ -3,7 +3,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  padding: 96px;
+  box-sizing: border-box;
+  padding: 96px 72px;
 }
 
 .Service q {
@@ -12,5 +13,6 @@
 
 .Cards {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }

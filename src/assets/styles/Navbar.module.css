@@ -7,6 +7,7 @@
   padding: 12px 48px;
   width: 100%;
   background-color: #fafafa;
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 
 .Logo {
