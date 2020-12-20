@@ -1,0 +1,53 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 200px;
+  background-color: #fafafa;
+}
+
+.Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 48px;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+
+.Navigation a {
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+.Navigation a:hover {
+  color: #f7941e;
+}
+
+.Navigation h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 18px;
+  font-weight: 400;
+  color: #f7941e;
+  cursor: default;
+}
+
+.Social {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 54px;
+  margin-bottom: 72px;
+  width: 35%;
+}
+
+.Social img {
+  background: none;
+  border-radius: 50%;
+  transition: 0.2s all ease-in-out;
+}
+
+.Social img:hover {
+  background: #f7941e;
+}
