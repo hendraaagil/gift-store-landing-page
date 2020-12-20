@@ -4,14 +4,15 @@
   align-items: center;
   box-sizing: border-box;
   padding: 72px;
+  color: var(--dark-gray);
   cursor: default;
 }
 
 .Hero {
   display: flex;
   margin: 72px 64px 0 64px;
-  background-color: #231f20;
-  color: #fff;
+  background-color: var(--dark-gray);
+  color: var(--white);
 }
 
 .Hero img {
@@ -60,7 +61,7 @@
 }
 
 .Hero a:hover::after {
-  border-bottom-color: #fff;
+  border-bottom-color: var(--white);
   transition: border-color 0s ease-out 0.1s, width 0.2s ease-out 0.1s;
 }
 

@@ -39,6 +39,6 @@
 }
 
 .Post a:hover::after {
-  border-bottom-color: #000;
+  border-bottom-color: var(--dark-gray);
   transition: border-color 0s ease-out 0.1s, width 0.2s ease-out 0.1s;
 }

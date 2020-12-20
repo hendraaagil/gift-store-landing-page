@@ -1,7 +1,8 @@
 .Section_One {
   display: flex;
   padding-top: 72px;
-  background: #f1f1f2;
+  background: var(--light-gray);
+  color: var(--dark-gray);
   cursor: default;
 }
 
@@ -29,18 +30,18 @@
 
 .Left a {
   padding: 10px 20px;
-  background-color: #f7941e;
-  color: #fff;
+  background-color: var(--primary);
+  color: var(--white);
   text-transform: uppercase;
-  border: 1px solid #f7941e;
+  border: 1px solid var(--primary);
   border-radius: 5px;
   cursor: pointer;
   transition: 0.2s all ease-in-out;
 }
 
 .Left a:hover {
-  background-color: #f1f1f2;
-  color: #f7941e;
+  background-color: var(--light-gray);
+  color: var(--primary);
 }
 
 .Right img {

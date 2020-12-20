@@ -1,11 +1,11 @@
 .Card {
-  background-color: #fafafa;
+  background-color: var(--light-gray);
   width: 270px;
   transition: 0.3s all ease-in-out;
 }
 
 .Card:hover {
-  background-color: #fff;
+  background-color: var(--white);
   filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
   transform: scale(0.98);
 }
@@ -34,5 +34,5 @@
 }
 
 .Card a:hover {
-  color: #f7941e;
+  color: var(--primary);
 }

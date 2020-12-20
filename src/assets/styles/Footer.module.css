@@ -3,7 +3,8 @@
   flex-direction: column;
   align-items: center;
   padding: 35px 200px;
-  background-color: #fafafa;
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
 }
 
 .Navigation {
@@ -12,7 +13,7 @@
   justify-content: space-evenly;
   padding: 48px;
   width: 100%;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--dark-gray);
 }
 
 .Navigation a {
@@ -23,14 +24,14 @@
 }
 
 .Navigation a:hover {
-  color: #f7941e;
+  color: var(--primary);
 }
 
 .Navigation h1 {
   font-family: 'Homemade Apple', cursive;
   font-size: 18px;
   font-weight: 400;
-  color: #f7941e;
+  color: var(--primary);
   cursor: default;
 }
 
@@ -49,5 +50,5 @@
 }
 
 .Social img:hover {
-  background: #f7941e;
+  background: var(--primary);
 }

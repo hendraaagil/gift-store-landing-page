@@ -5,6 +5,7 @@
   align-items: center;
   box-sizing: border-box;
   padding: 96px 72px;
+  color: var(--dark-gray);
   cursor: default;
 }
 
@@ -24,7 +25,7 @@
   box-sizing: border-box;
   padding: 72px 96px;
   width: 100%;
-  background-color: #f7941e;
+  background-color: var(--primary);
 }
 
 .Contact .Left,
@@ -56,27 +57,27 @@
 .Contact .Right a {
   padding: 12px 28px;
   text-transform: uppercase;
-  border: 1px solid #231f20;
+  border: 1px solid var(--dark-gray);
   border-radius: 5px;
   transition: 0.2s all ease-in-out;
   cursor: pointer;
 }
 
 .Contact .Right a:first-child {
-  background-color: #231f20;
-  color: #f7941e;
+  background-color: var(--dark-gray);
+  color: var(--primary);
 }
 
 .Contact .Right a:first-child:hover {
-  background-color: #f7941e;
-  color: #231f20;
+  background-color: var(--primary);
+  color: var(--dark-gray);
 }
 
 .Contact .Right a:last-child {
-  color: #231f20;
+  color: var(--dark-gray);
 }
 
 .Contact .Right a:last-child:hover {
-  background-color: #231f20;
-  color: #f7941e;
+  background-color: var(--dark-gray);
+  color: var(--primary);
 }

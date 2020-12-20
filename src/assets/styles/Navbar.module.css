@@ -7,14 +7,15 @@
   z-index: 1;
   padding: 12px 48px;
   width: 100%;
-  background-color: #fafafa;
+  max-width: 1440px;
+  background-color: var(--light-gray);
   filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 
 .Logo {
   font-family: 'Homemade Apple', cursive;
   font-size: 18px;
-  color: #231f20;
+  color: var(--dark-gray);
   cursor: default;
 }
 
@@ -25,28 +26,29 @@
 }
 
 .Link a {
-  color: #000;
+  color: var(--dark-gray);
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
   transition: 0.2s all ease-in-out;
 }
 
 .Link a:hover {
-  color: #f7941e;
+  color: var(--primary);
 }
 
 .Button {
   padding: 10px 20px;
-  color: #f7941e;
+  color: var(--primary);
   text-decoration: none;
   text-transform: uppercase;
-  border: 1px solid #f7941e;
+  border: 1px solid var(--primary);
   border-radius: 5px;
   cursor: pointer;
   transition: 0.2s all ease-in-out;
 }
 
 .Button:hover {
-  color: #fafafa;
-  background-color: #f7941e;
+  color: var(--light-gray);
+  background-color: var(--primary);
 }
