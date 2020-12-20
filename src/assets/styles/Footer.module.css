@@ -30,7 +30,6 @@
 .Navigation h1 {
   font-family: 'Homemade Apple', cursive;
   font-size: 18px;
-  font-weight: 400;
   color: var(--primary);
   cursor: default;
 }
@@ -51,4 +50,25 @@
 
 .Social img:hover {
   background: var(--primary);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .Social {
+    width: 45%;
+  }
+
+  .Footer span {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Footer {
+    padding: 24px 150px;
+  }
+
+  .Social {
+    width: 60%;
+  }
 }

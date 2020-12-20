@@ -8,7 +8,7 @@ import Post from './layouts/Post';
 const Blogs = ({ id }) => {
   return (
     <div className={styles.Blogs} id={id}>
-      <h1>Our Best Blogs Ever</h1>
+      <h2>Our Best Blogs Ever</h2>
       <q>Try our blog to find the best tips and tricks to select your gift</q>
       <div className={styles.Hero}>
         <img src={blogImg} alt="Couple of peoples" />

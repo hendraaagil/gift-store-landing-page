@@ -16,6 +16,7 @@
 .Cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -80,4 +81,52 @@
 .Contact .Right a:last-child:hover {
   background-color: var(--dark-gray);
   color: var(--primary);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .Cards {
+    gap: 20px;
+  }
+
+  .Contact {
+    padding: 72px 48px;
+  }
+
+  .Contact .Left h1,
+  .Contact .Left h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Service {
+    padding: 64px 48px;
+  }
+
+  .Service h2 {
+    font-size: 20px;
+  }
+
+  .Service q {
+    font-size: 14px;
+  }
+
+  .Contact {
+    align-items: center;
+    padding: 64px 38px;
+  }
+
+  .Contact .Left h1,
+  .Contact .Left h2 {
+    font-size: 24px;
+  }
+
+  .Contact .Right {
+    flex-direction: column;
+  }
+
+  .Contact .Right a {
+    font-size: 14px;
+  }
 }

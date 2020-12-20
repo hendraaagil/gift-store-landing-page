@@ -6,10 +6,10 @@ import styles from '../assets/styles/Section2.module.css';
 const Section2 = ({ id }) => {
   return (
     <section className={styles.Section_Two} id={id}>
-      <div className={styles.Right}>
+      <div className={styles.Left}>
         <img src={background} alt="Background Section 2" />
       </div>
-      <div className={styles.Left}>
+      <div className={styles.Right}>
         <h2>How we work</h2>
         <p>
           We’ve actually already asked hundreds of women what they want, and

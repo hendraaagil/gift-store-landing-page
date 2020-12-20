@@ -12,6 +12,7 @@
 
 .Post h3 {
   font-size: 24px;
+  font-weight: 600;
 }
 
 .Post a {
@@ -41,4 +42,19 @@
 .Post a:hover::after {
   border-bottom-color: var(--dark-gray);
   transition: border-color 0s ease-out 0.1s, width 0.2s ease-out 0.1s;
+}
+
+@media (max-width: 1024px) {
+  .Post {
+    padding: 32px;
+  }
+
+  .Post h3 {
+    font-size: 20px;
+  }
+
+  .Post p,
+  .Post a {
+    font-size: 14px;
+  }
 }

@@ -52,3 +52,15 @@
   color: var(--light-gray);
   background-color: var(--primary);
 }
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .Logo {
+    font-size: 16px;
+  }
+
+  .Link a,
+  .Button {
+    font-size: 14px;
+  }
+}

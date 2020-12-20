@@ -70,3 +70,73 @@
   gap: 30px;
   margin: 40px 64px;
 }
+
+/* Responsive Breakpoints */
+@media (max-width: 1280px) {
+  .Hero img {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Blogs {
+    padding: 48px;
+  }
+
+  .Hero img {
+    width: 300px;
+  }
+
+  .Hero div {
+    padding: 32px 24px;
+  }
+
+  .Hero h2 {
+    font-size: 32px;
+  }
+
+  .Hero a {
+    margin-top: 24px;
+  }
+
+  .Posts {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Blogs {
+    padding: 48px 32px;
+  }
+
+  .Blogs h2 {
+    font-size: 20px;
+  }
+
+  .Blogs q {
+    font-size: 14px;
+  }
+
+  .Hero {
+    margin: 64px 48px 0 48px;
+  }
+
+  .Hero div {
+    justify-content: center;
+    padding: 14px 28px;
+  }
+
+  .Hero img {
+    width: auto;
+    height: 200px;
+  }
+
+  .Hero span,
+  .Hero a {
+    font-size: 14px;
+  }
+
+  .Hero h2 {
+    font-size: 24px;
+  }
+}

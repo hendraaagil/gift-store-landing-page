@@ -11,24 +11,28 @@
   width: 50%;
 }
 
-.Left {
+.Left img {
+  width: 100%;
+  height: 100%;
+}
+
+.Right {
   padding: 100px;
 }
 
-.Left h2 {
+.Right h2 {
   font-size: 32px;
   font-weight: 500;
   line-height: 1.5;
 }
 
-.Left p {
+.Right p {
   margin-bottom: 72px;
   font-size: 20px;
-  text-align: justify;
   line-height: 1.5;
 }
 
-.Left a {
+.Right a {
   padding: 10px 40px;
   background-color: var(--light-gray);
   color: var(--primary);
@@ -39,12 +43,43 @@
   transition: 0.2s all ease-in-out;
 }
 
-.Left a:hover {
+.Right a:hover {
   background-color: var(--primary);
   color: var(--white);
 }
 
-.Right img {
-  width: 100%;
-  height: 100%;
+/* Responsive Breakpoints */
+@media (max-width: 1280px) {
+  .Right {
+    padding: 72px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Right {
+    padding: 48px;
+  }
+
+  .Right h2 {
+    font-size: 28px;
+  }
+
+  .Right p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Right {
+    padding: 32px;
+  }
+
+  .Right h2 {
+    font-size: 24px;
+  }
+
+  .Right p,
+  .Right a {
+    font-size: 14px;
+  }
 }

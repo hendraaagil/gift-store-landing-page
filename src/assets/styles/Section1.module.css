@@ -48,3 +48,39 @@
   width: 100%;
   height: 100%;
 }
+
+/* Responsive Breakpoints */
+@media (max-width: 1280px) {
+  .Left {
+    padding: 72px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Left {
+    padding: 48px;
+  }
+
+  .Left h1 {
+    font-size: 42px;
+  }
+
+  .Left p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Left {
+    padding: 32px;
+  }
+
+  .Left h1 {
+    font-size: 32px;
+  }
+
+  .Left p,
+  .Left a {
+    font-size: 14px;
+  }
+}

@@ -36,3 +36,24 @@
 .Card a:hover {
   color: var(--primary);
 }
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .Card {
+    width: 200px;
+  }
+
+  .Card a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Card h3 {
+    font-size: 16px;
+  }
+
+  .Card a {
+    font-size: 12px;
+  }
+}
