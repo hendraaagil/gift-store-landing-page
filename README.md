@@ -26,3 +26,9 @@ yarn start
 
 - [React Documentation](http://reactjs.org/) - learn about React features and API.
 - [Framer Motion Documentation](https://framer.com/api/motion) - learn about Framer Motion API.
+
+### Credits
+
+Designed by [Mohammad Ali](https://dribbble.com/ScratchCoders). Check the dribbble shots at [here](https://dribbble.com/shots/7687874-Gift-Shop-Website-Template-Figma-Freebie).
+
+Coded by [Hendra Agil](https://github.com/hendraaagil).
