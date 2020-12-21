@@ -55,11 +55,44 @@
 .Attribute span {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .Attribute a {
+  position: relative;
   margin-left: 4px;
   color: var(--dark-gray);
+  text-decoration: none;
+}
+
+.Attribute span:last-child {
+  margin-top: 10px;
+}
+
+.Attribute a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 1px solid transparent;
+}
+
+.Attribute a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.Attribute a:first-child:hover::after {
+  width: 100%;
+}
+
+.Attribute a:last-child:hover::after {
+  width: 50%;
+}
+
+.Attribute a:hover::after {
+  border-bottom-color: var(--dark-gray);
+  transition: border-color 0s ease-out 0.1s, width 0.2s ease-out 0.1s;
 }
 
 /* Responsive Breakpoints */

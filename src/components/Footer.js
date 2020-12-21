@@ -110,6 +110,16 @@ const Footer = () => {
               </svg>
             </a>
           </span>
+          <span>
+            Designed by{' '}
+            <a
+              href="https://dribbble.com/ScratchCoders"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Mohammad Ali
+            </a>
+          </span>
         </motion.div>
       </footer>
     </LazyLoad>
