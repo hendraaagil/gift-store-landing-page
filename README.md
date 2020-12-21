@@ -1,6 +1,6 @@
 # Gift Store Landing Page
 
-![preview](public/preview.png)
+![preview](public/images/preview.png)
 
 ## Getting Started
 
