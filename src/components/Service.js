@@ -1,5 +1,6 @@
-import { Fragment } from 'react';
 import { Link } from 'react-scroll';
+import LazyLoad from 'react-lazyload';
+import { motion } from 'framer-motion';
 
 import services from '../assets/data/services.json';
 import styles from '../assets/styles/Service.module.css';
@@ -7,17 +8,39 @@ import Card from './layouts/Card';
 
 const Service = ({ id }) => {
   return (
-    <Fragment>
+    <LazyLoad>
       <div className={styles.Service} id={id}>
-        <h2>Gifts For All Occasions</h2>
-        <q>Try our web app to find the best gifts for all occasions</q>
-        <div className={styles.Cards}>
+        <motion.h2
+          initial={{ x: -500 }}
+          animate={{ x: 0 }}
+          transition={{ type: 'spring' }}
+        >
+          Gifts For All Occasions
+        </motion.h2>
+        <motion.q
+          initial={{ x: 500 }}
+          animate={{ x: 0 }}
+          transition={{ type: 'spring' }}
+        >
+          Try our web app to find the best gifts for all occasions
+        </motion.q>
+        <motion.div
+          className={styles.Cards}
+          initial={{ x: -1000 }}
+          animate={{ x: 0 }}
+          transition={{ type: 'spring' }}
+        >
           {services.map((service) => (
             <Card key={service.id} title={service.title} imgSrc={service.img} />
           ))}
-        </div>
+        </motion.div>
       </div>
-      <div className={styles.Contact}>
+      <motion.div
+        className={styles.Contact}
+        initial={{ x: 1000 }}
+        animate={{ x: 0 }}
+        transition={{ type: 'spring' }}
+      >
         <div className={styles.Left}>
           <h1>Ready to get started?</h1>
           <h2>Sign up or contact us</h2>
@@ -30,8 +53,8 @@ const Service = ({ id }) => {
             How it works
           </Link>
         </div>
-      </div>
-    </Fragment>
+      </motion.div>
+    </LazyLoad>
   );
 };
 

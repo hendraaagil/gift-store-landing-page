@@ -11,6 +11,10 @@
   width: 50%;
 }
 
+.Left {
+  z-index: 1;
+}
+
 .Left img {
   width: 100%;
   height: 100%;

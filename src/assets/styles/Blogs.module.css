@@ -16,6 +16,7 @@
 }
 
 .Hero img {
+  z-index: 1;
   width: 400px;
 }
 

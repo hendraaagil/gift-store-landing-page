@@ -52,6 +52,16 @@
   background: var(--primary);
 }
 
+.Attribute span {
+  display: flex;
+  align-items: center;
+}
+
+.Attribute a {
+  margin-left: 4px;
+  color: var(--dark-gray);
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
   .Social {

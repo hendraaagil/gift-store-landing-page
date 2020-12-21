@@ -16,13 +16,6 @@ const containerVariants = {
       type: 'spring',
     },
   },
-  exit: {
-    y: '-100vh',
-    transition: {
-      duration: 10,
-      ease: 'easeInOut',
-    },
-  },
 };
 
 const Menu = () => {
@@ -32,7 +25,6 @@ const Menu = () => {
       variants={containerVariants}
       initial="hidden"
       animate="visible"
-      exit="exit"
     >
       <ul>
         <li>

@@ -1,6 +1,7 @@
 import { Fragment, useState } from 'react';
 import { Link } from 'react-scroll';
 import { Spin as Hamburger } from 'hamburger-react';
+import { motion } from 'framer-motion';
 import useMediaQuery from '../hooks/useMediaQuery';
 
 import styles from '../assets/styles/Navbar.module.css';
@@ -17,7 +18,12 @@ const Navbar = () => {
 
   return (
     <Fragment>
-      <nav className={styles.Navbar}>
+      <motion.nav
+        className={styles.Navbar}
+        initial={{ y: -150 }}
+        animate={{ y: 0 }}
+        transition={{ type: 'spring' }}
+      >
         <h1 className={styles.Logo}>logo</h1>
         {isPageWide && (
           <ul className={styles.Link}>
@@ -93,7 +99,7 @@ const Navbar = () => {
             rounded
           />
         )}
-      </nav>
+      </motion.nav>
       {menu}
     </Fragment>
   );
