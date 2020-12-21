@@ -72,3 +72,45 @@
     width: 60%;
   }
 }
+
+@media (max-width: 480px) {
+  .Footer {
+    padding: 24px 50px;
+  }
+
+  .Navigation {
+    padding: 48px 24px;
+  }
+
+  .Social {
+    width: 70%;
+  }
+}
+
+@media (max-width: 375px) {
+  .Footer {
+    padding: 24px;
+  }
+
+  .Navigation {
+    padding: 48px 12px;
+  }
+
+  .Social {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .Footer {
+    padding: 24px 0;
+  }
+
+  .Navigation {
+    padding: 48px 0;
+  }
+
+  .Social {
+    width: 80%;
+  }
+}

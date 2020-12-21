@@ -4,10 +4,16 @@ import { Spin as Hamburger } from 'hamburger-react';
 import useMediaQuery from '../hooks/useMediaQuery';
 
 import styles from '../assets/styles/Navbar.module.css';
+import Menu from './Menu';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const isPageWide = useMediaQuery('(min-width: 481px)');
+
+  let menu = null;
+  if (open && !isPageWide) {
+    menu = <Menu />;
+  }
 
   return (
     <Fragment>
@@ -17,7 +23,7 @@ const Navbar = () => {
           <ul className={styles.Link}>
             <li>
               <Link
-                activeClass="active"
+                activeClass={styles.active}
                 to="home"
                 spy={true}
                 smooth={true}
@@ -29,7 +35,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                activeClass="active"
+                activeClass={styles.active}
                 to="about"
                 spy={true}
                 smooth={true}
@@ -41,7 +47,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                activeClass="active"
+                activeClass={styles.active}
                 to="service"
                 spy={true}
                 smooth={true}
@@ -53,7 +59,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                activeClass="active"
+                activeClass={styles.active}
                 to="blogs"
                 spy={true}
                 smooth={true}
@@ -88,7 +94,7 @@ const Navbar = () => {
           />
         )}
       </nav>
-      {open && <div style={{ paddingTop: '80px' }}>Ini Navigasi mobile</div>}
+      {menu}
     </Fragment>
   );
 };

@@ -83,3 +83,23 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .Section_Two {
+    flex-direction: column;
+  }
+
+  .Left {
+    order: 2;
+  }
+
+  .Left,
+  .Right {
+    width: 100%;
+  }
+
+  .Right {
+    order: 1;
+    padding-bottom: 48px;
+  }
+}

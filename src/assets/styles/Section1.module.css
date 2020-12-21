@@ -84,3 +84,18 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .Section_One {
+    flex-direction: column;
+  }
+
+  .Left {
+    padding-bottom: 48px;
+  }
+
+  .Left,
+  .Right {
+    width: 100%;
+  }
+}

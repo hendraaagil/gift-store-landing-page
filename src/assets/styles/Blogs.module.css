@@ -140,3 +140,42 @@
     font-size: 24px;
   }
 }
+
+@media (max-width: 480px) {
+  .Blogs {
+    padding: 48px 24px;
+  }
+
+  .Blogs q {
+    text-align: center;
+  }
+
+  .Hero {
+    flex-direction: column;
+  }
+
+  .Hero img {
+    width: 100%;
+    height: auto;
+  }
+
+  .Hero div {
+    justify-content: center;
+    padding: 28px;
+  }
+
+  .Posts {
+    flex-direction: column;
+    margin: 36px 32px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Blogs {
+    padding: 48px 12px;
+  }
+
+  .Hero {
+    margin: 64px 24px 0 24px;
+  }
+}

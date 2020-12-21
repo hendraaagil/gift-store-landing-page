@@ -1,31 +1,30 @@
-.Navbar {
+.Menu {
   position: fixed;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  z-index: 2;
-  padding: 12px 48px;
-  width: 100%;
-  max-width: 1440px;
+  z-index: 1;
+  padding-top: 96px;
   background-color: var(--light-gray);
+  width: 100%;
   filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.05));
 }
 
-.Logo {
-  font-family: 'Homemade Apple', cursive;
-  font-size: 18px;
-  color: var(--dark-gray);
-  cursor: default;
-}
-
-.Link {
+.Menu ul {
   display: flex;
-  gap: 20px;
-  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
 }
 
-.Link a {
+.Menu li {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.Menu li a {
   color: var(--dark-gray);
   font-weight: 500;
   text-decoration: none;
@@ -33,12 +32,18 @@
   transition: 0.2s all ease-in-out;
 }
 
-.Link a:hover,
-.Link a.active {
+.Menu li a:hover,
+.Menu li a.active {
   color: var(--primary);
 }
 
+.Menu li a,
 .Button {
+  font-size: 14px;
+}
+
+.Button {
+  margin-bottom: 36px;
   padding: 10px 20px;
   color: var(--primary);
   text-decoration: none;
@@ -52,22 +57,4 @@
 .Button:hover {
   color: var(--light-gray);
   background-color: var(--primary);
-}
-
-/* Responsive Breakpoints */
-@media (max-width: 768px) {
-  .Logo {
-    font-size: 16px;
-  }
-
-  .Link a,
-  .Button {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 375px) {
-  .Navbar {
-    padding: 12px 24px;
-  }
 }

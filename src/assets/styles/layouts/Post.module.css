@@ -58,3 +58,9 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 1024px) {
+  .Post {
+    padding: 24px;
+  }
+}

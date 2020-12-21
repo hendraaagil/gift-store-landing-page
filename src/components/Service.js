@@ -9,7 +9,7 @@ const Service = ({ id }) => {
   return (
     <Fragment>
       <div className={styles.Service} id={id}>
-        <h2>Gifts for all Occasions</h2>
+        <h2>Gifts For All Occasions</h2>
         <q>Try our web app to find the best gifts for all occasions</q>
         <div className={styles.Cards}>
           {services.map((service) => (

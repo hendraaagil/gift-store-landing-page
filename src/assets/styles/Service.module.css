@@ -130,3 +130,42 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .Service {
+    padding: 48px 24px;
+  }
+
+  .Service q {
+    text-align: center;
+  }
+
+  .Contact {
+    flex-direction: column;
+    gap: 30px;
+    padding: 48px 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .Cards {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Contact .Left h1,
+  .Contact .Left h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .Service {
+    padding: 48px 0;
+  }
+
+  .Cards {
+    gap: 5px;
+  }
+}
