@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 
-import background from '../assets/images/bg-2.png';
+import background from '../assets/images/bg-2.webp';
 import styles from '../assets/styles/Section2.module.css';
 
 const Section2 = ({ id }) => {

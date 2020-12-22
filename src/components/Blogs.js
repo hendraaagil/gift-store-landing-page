@@ -2,7 +2,7 @@ import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 
 import posts from '../assets/data/posts.json';
-import blogImg from '../assets/images/blog.png';
+import blogImg from '../assets/images/blog.webp';
 import styles from '../assets/styles/Blogs.module.css';
 import Post from './layouts/Post';
 
