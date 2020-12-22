@@ -1,5 +1,4 @@
 import { Link } from 'react-scroll';
-import LazyLoad from 'react-lazyload';
 import { motion } from 'framer-motion';
 
 import services from '../assets/data/services.json';
@@ -8,7 +7,7 @@ import Card from './layouts/Card';
 
 const Service = ({ id }) => {
   return (
-    <LazyLoad>
+    <>
       <div className={styles.Service} id={id}>
         <motion.h2
           initial={{ x: -500 }}
@@ -54,7 +53,7 @@ const Service = ({ id }) => {
           </Link>
         </div>
       </motion.div>
-    </LazyLoad>
+    </>
   );
 };
 
