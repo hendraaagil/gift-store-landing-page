@@ -42,13 +42,12 @@
   width: 35%;
 }
 
-.Social img {
-  background: none;
+.Social svg {
   border-radius: 50%;
   transition: 0.2s all ease-in-out;
 }
 
-.Social img:hover {
+.Social svg:hover {
   background: var(--primary);
 }
 

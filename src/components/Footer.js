@@ -1,11 +1,11 @@
 import { Link } from 'react-scroll';
 import { motion } from 'framer-motion';
 
-import facebook from '../assets/images/social/social-facebook.svg';
-import twitter from '../assets/images/social/social-twitter.svg';
-import instagram from '../assets/images/social/social-instagram.svg';
-import youtube from '../assets/images/social/social-youtube.svg';
-import pinterest from '../assets/images/social/social-pinterest.svg';
+import { ReactComponent as Facebook } from '../assets/images/social/social-facebook.svg';
+import { ReactComponent as Twitter } from '../assets/images/social/social-twitter.svg';
+import { ReactComponent as Instagram } from '../assets/images/social/social-instagram.svg';
+import { ReactComponent as Youtube } from '../assets/images/social/social-youtube.svg';
+import { ReactComponent as Pinterest } from '../assets/images/social/social-pinterest.svg';
 import styles from '../assets/styles/Footer.module.css';
 
 const Footer = () => {
@@ -42,35 +42,35 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={facebook} alt="Facebook icon" />
+          <Facebook />
         </a>
         <a
           href="https://twitter.com/hendraaagil"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={twitter} alt="Twitter icon" />
+          <Twitter />
         </a>
         <a
           href="https://instagram.com/hendraaagil"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagram} alt="Instagram icon" />
+          <Instagram />
         </a>
         <a
           href="https://www.youtube.com/channel/UCy44Cn1aBo3LYrZsh2gKGIA"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={youtube} alt="YouTube icon" />
+          <Youtube />
         </a>
         <a
           href="https://id.pinterest.com/hendraaagil"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={pinterest} alt="Pinterest icon" />
+          <Pinterest />
         </a>
       </motion.div>
       <motion.div
